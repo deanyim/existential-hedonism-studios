@@ -9,9 +9,11 @@ First, you'll want to install `virtualenvwrapper`. This is our dependency manage
     venv/init.sh
     workon existential-hedonism-studios
 
-Then, install Django (1.7c1):
+Then, install Django (1.7c1) and the required Python libraries:
 
-    venv/install-django.sh
+    cd venv
+    ./install-django.sh
+    pip install -r requirements.txt
 
 
 Troubleshooting
