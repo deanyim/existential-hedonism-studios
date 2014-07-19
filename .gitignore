@@ -1,4 +1,4 @@
-# Mac stuf
+# Mac stuff
 *.DS_Store
 
 # Byte-compiled / optimized / DLL files
@@ -7,6 +7,9 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Database
+*.sqlite3
 
 # Distribution / packaging
 .Python
