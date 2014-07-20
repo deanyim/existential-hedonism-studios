@@ -1,3 +1,2 @@
 - Get a tesselating background for the Cybermind page.
-- Let /cybermind/ make the name variable 'CYBER MIND'.
 - Create a div containing the name variable and make it rotate and spin and move and etc.
