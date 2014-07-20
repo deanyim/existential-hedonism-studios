@@ -1,0 +1,14 @@
+.cybermind-spacing {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.cybermind {
+  color: #34d;
+  font-family: 'Creepster', cursive;
+  font-size: 160px;
+}
+
+html {
+  background-image: url('../images/cybermind.png');
+}

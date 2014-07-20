@@ -1,11 +1,25 @@
+{% load staticfiles %}
+
 <html>
   <head>
-    <title>Existential Hedonism Studios</title>
+    <title>CYBERMIND | Existential Hedonism Studios</title>
+
+    <link
+      href='http://fonts.googleapis.com/css?family=Creepster'
+      rel='stylesheet'
+      type='text/css'
+    >
+    <link
+      href="{% static 'cybermind/css/cybermind.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    >
   </head>
   <body>
-    {% for i in count %}
-      {{ human_name }}
-      <br>
-    {% endfor %}
+    <div class="i-dreamt-i-was-the-cosmos">
+      <div class="cybermind-spacing">
+        <span class="cybermind">{{ human_name }}</span>
+      </div>
+    </div>
   </body>
 </html>
